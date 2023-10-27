@@ -1,0 +1,32 @@
+{
+  "name": "dir-manager",
+  "version": "1.0.0",
+  "description": "Very simple directory manager...more updates coming soon",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "dirmanager": "/dist/index.js"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "test": "npx tsc && node dist/index.js -l"
+  },
+  "keywords": [
+    "directory Manager",
+    "dir Manager"
+  ],
+  "author": "jayesh_11",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
+    "figlet": "^1.7.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.5.7",
+    "@types/node": "^20.8.9",
+    "typescript": "^5.2.2"
+  }
+}
